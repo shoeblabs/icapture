@@ -32,6 +32,9 @@ header {
 .content {
     font-size:1.2em;
 }
+.content ul {
+    list-style-type: none;
+}
 .content li {
     padding:5px 0;
     color:#444;

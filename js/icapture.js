@@ -1,4 +1,5 @@
 (function(){
+    //initiate & destroy icapture on key press
     var icapture;
     document.onkeydown = function(e) {
         var event = e || window.event;
@@ -14,11 +15,10 @@
         }
         if(event.which=="27") {
             icapture.destroy();
+            icapture = null;
         } 
     }
-})();
 
-(function(){
     //Some common utility functions
     var util = {
         mixin: function(dest, src){
