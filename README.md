@@ -5,6 +5,6 @@ Javascript library to save html page as an image
 
 ## Features
 
-'Select capture area'
-'Can resize frame'
-'Can move frame '
+- Select capture area
+- Can resize frame
+- Can move frame 
